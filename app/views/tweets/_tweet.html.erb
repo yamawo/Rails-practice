@@ -12,9 +12,9 @@
                     <li>
                         <%= link_to '削除', "/tweets/#{tweet.id}", method: :delete %>
                     </li>
-                <% end %>
             </ul>
         </div>
+        <% end %>
         <%= simple_format(tweet.text) %>
     <span class="name">
         <a href="">
